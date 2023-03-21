@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+Allow:
+
+sitemap: https://chelsford.com/sitemap.xml

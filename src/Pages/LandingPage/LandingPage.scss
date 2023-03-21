@@ -1,0 +1,52 @@
+@import "../../App.scss";
+@import "../../mediaQueries.scss";
+.fae--vertical-image {
+    width: 22%;
+    flex: 4;
+    margin: 10px;
+}
+#course-info-section{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+
+  .fae--vertical-image {
+    width: 95% !important;
+    flex: auto;
+    margin: 10px 9px;
+  }
+    .fae--vertical-scroll-services {
+        display: block;
+    }
+    .fae--vertical-image {
+      width: 18%;
+      flex: auto;
+      margin: 10px 18px;
+    }
+      #course-info-section.course-information-sec{
+        padding: 20px;
+      } 
+      .font_mob_sec {
+        padding-bottom: 20px;
+        font-weight: bold;
+      }
+      .font_para_mob, .font_mob_sec{
+        color: white;
+        text-align: center;
+      }
+      #course-info-section{
+
+        display: block !important;
+        background-repeat: no-repeat;
+        background-position: 64% -7%;
+        min-height: 543px !important;
+        background-size: cover; 
+        padding: 25px 16px 21px 9px !important;
+    }
+    #example-collapse-text {
+      background-color: white; 
+      margin-top: 8px;
+      border-radius: 10px;
+      padding: 10px;
+  }
+}
